@@ -52,4 +52,10 @@
 	.btn-primary:hover {
 		@apply bg-blue-700;
 	}
+	.btn-accent {
+		@apply bg-orange-500 text-white;
+	}
+	.btn-accent:hover {
+		@apply bg-orange-700;
+	}
 }
