@@ -1,8 +1,15 @@
 ---
-import Layout from "../layouts/Layout.astro";
-import Card from "../components/Card.astro";
+import Layout from "@layouts/Layout.astro";
+import Card from "../../../components/Card.astro";
+import Overview from "@components/offer/homepage/Overview.astro";
 ---
 
-<header>header</header>
-<main>main</main>
-<footer>footer</footer>
+<Layout title="homepage">
+	<main class="space-y-8">
+		<header>hero</header>
+		<main class="container mx-auto">
+			<Overview />
+		</main>
+		<footer>footer</footer>
+	</main>
+</Layout>
