@@ -1,19 +1,35 @@
-<section class="Overview flex flex-wrap gap-4 md:flex-row bg-slate-300">
-	<h1 class="text-orange-700 w-full">
-		MetaStock - A Global Leader in Market Analysis Tools
-	</h1>
-	<div class="blurb primary flex-[1.618] p-4 space-y-5">
-		<p class="WTW">
-			MetaStock provides charting and analysis tools for self-directed traders.
-			Our software and market data allow traders to analyze and backtest various
-			markets, including stocks, options, futures, and FOREX. Our signals are
-			reliable and suitable for day, swing, and EOD traders. Try MetaStock and
-			see why it's the best charting software for private traders.
-		</p>
-		<div class="cta flex gap-2 md:flex-row justify-evenly">
+---
+import monitorImage from "../../../images/ms-montor-417px.webp";
+---
+
+<section class="Overview bg-slate-300">
+	<div class="container mx-auto flex flex-wrap gap-4 flex-col md:flex-row px-4">
+		<h1 class="text-orange-700 w-full">
+			MetaStock - A Global Leader in Market Analysis Tools
+		</h1>
+		<div class="blurb primary flex-[1.618] space-y-5">
+			<p class="WTW">
+				MetaStock provides charting and analysis tools for self-directed
+				traders. Our software and market data allow traders to analyze and
+				backtest various markets, including stocks, options, futures, and FOREX.
+				Our signals are reliable and suitable for day, swing, and EOD traders.
+				Try MetaStock and see why it's the best charting software for private
+				traders.
+			</p>
+		</div>
+		<div class="media secondary flex-1">
+			<img
+				src={monitorImage}
+				alt="MetaStock running on monitor"
+				width="417"
+				height="348"
+			/>
+		</div>
+		<div
+			class="cta w-full flex gap-2 flex-col md:flex-row justify-evenly text-center"
+		>
 			<a class="btn btn-primary" href="#">Learn more about MetaStock</a>
 			<a class="btn btn-accent" href="#">What's new in MetaStock?</a>
 		</div>
 	</div>
-	<div class="media secondary flex-1">media</div>
 </section>

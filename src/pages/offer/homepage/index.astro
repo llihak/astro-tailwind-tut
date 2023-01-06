@@ -1,14 +1,16 @@
 ---
 import Layout from "@layouts/Layout.astro";
-import Card from "../../../components/Card.astro";
+import Card from "@components/Card.astro";
 import Overview from "@components/offer/homepage/Overview.astro";
+import Products from "@components/offer/homepage/Products.astro";
 ---
 
-<Layout title="homepage">
+<Layout title="homepage" description="MetaStock Homepage">
 	<main class="space-y-8">
 		<header>hero</header>
-		<main class="container mx-auto">
+		<main class="">
 			<Overview />
+			<Products />
 		</main>
 		<footer>footer</footer>
 	</main>
